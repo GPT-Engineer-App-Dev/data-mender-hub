@@ -1,4 +1,4 @@
-import { Home } from "lucide-react";
+import { FileSpreadsheet } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -6,9 +6,9 @@ import Index from "./pages/Index.jsx";
  */
 export const navItems = [
   {
-    title: "Home",
+    title: "CSV Editor",
     to: "/",
-    icon: <Home className="h-4 w-4" />,
+    icon: <FileSpreadsheet className="h-4 w-4" />,
     page: <Index />,
   },
 ];
